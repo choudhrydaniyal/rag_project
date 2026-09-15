@@ -1,0 +1,23 @@
+[project]
+name = "rag-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "choudhrydaniyal", email = "choudhrydaniyal7@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "google-genai>=2.23.0",
+    "minsearch>=0.2.0",
+    "openai>=3.13.0",
+    "python-dotenv>=1.2.3",
+    "requests>=2.34.2",
+]
+
+[project.scripts]
+rag-project = "rag_project:main"
+
+[build-system]
+requires = ["uv_build>=0.12.1,<0.13.0"]
+build-backend = "uv_build"

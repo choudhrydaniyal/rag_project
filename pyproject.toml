@@ -10,7 +10,7 @@ requires-python = ">=3.14"
 dependencies = [
     "google-genai>=2.23.0",
     "minsearch>=0.2.0",
-    "openai>=3.13.0",
+    "nbconvert>=7.17.1",
     "python-dotenv>=1.2.3",
     "requests>=2.34.2",
     "sqlitesearch>=0.3.0",
